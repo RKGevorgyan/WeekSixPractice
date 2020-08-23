@@ -21,7 +21,7 @@ public class FileCreator {
                 int ip2 = random.nextInt(90) + 10;
                 int ip3 = random.nextInt(101) + 100;
                 int ip4 = random.nextInt(101) + 100;
-                int k = random.nextInt(10);
+                int k = random.nextInt(10)+1;
                 for (int x = 0; x <k; x++) {
                     String hour = String.valueOf(random.nextInt(24) + 1);
                     String min = String.valueOf(random.nextInt(60) + 1);
