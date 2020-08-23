@@ -109,10 +109,11 @@ public class UniqueIP {
     void printToNewFile(File file){
         try(PrintWriter pw = new PrintWriter(new FileOutputStream(file))){
             for(String s : setIp){
-                pw.print("IP: "+s+
-                        " Number of visits: " + mapVisits.get(s)+
-                        " Most popular day: " + mapPopularWeekDay.get(s)+
-                        " Most popular time: "+mapPopularHourString.get(s)+"\n");
+                pw.printf("IP: %s Number of visits: %s Most popular day: %-11s Most popular hour: %s\n",
+                        s,
+                        mapVisits.get(s),
+                        mapPopularWeekDay.get(s),
+                        mapPopularHourString.get(s));
             }
             pw.print("Most popular visit Hour: " + sitePopularHour);
         }catch (IOException e){

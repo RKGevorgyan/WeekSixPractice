@@ -1,4 +1,0 @@
-IP: 174.56.256.643 Number of visits: 8 Most popular day:  friday Most popular time:  17
-IP: 195.83.102.341 Number of visits: 5 Most popular day:  saturday Most popular time:  22
-IP: 139.18.150.126 Number of visits: 6 Most popular day:  wednesday Most popular time:  23
-Most popular visit Hour:  23
